@@ -1,0 +1,77 @@
+@media screen and ( max-width : 1920px ) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #080632;
+    }
+    /* /* .logo a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 20px; 
+    } */
+    .logo a img{
+        width: 450px;
+        height: 90px;
+    }
+    nav{
+    /*  display: flex;*/
+        justify-content: space-between;
+        /* padding: 10; 
+        top: -100px;
+        left: 0;
+        width: 100%;
+        transition: top 0.3s ease-in-out;
+        /* border: 1px solid red ; */
+        display: flex;
+        background-color: #fff;
+        padding: 1rem;
+        position: sticky;
+        top: 0px;
+        padding: 12;
+        z-index: 1000;
+    
+    }
+    .menu {
+        display: flex;
+        list-style: none;
+    /*  background-color: #090934; */
+        align-items: center;
+    
+    }
+    .menu li{
+        margin-left: 5px;
+    
+    }
+    /* .menu li a {
+        text-decoration: none;
+        color: rgb(199, 22, 169);
+    } */
+    .menu li a img {
+        width: 169px;
+        height: 80px;
+    }
+    .banner{
+        background-color: #4945b5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-info img {
+        width: 1080px;
+    }
+    footer {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;    
+    }
+        }
